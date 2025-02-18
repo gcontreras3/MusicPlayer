@@ -83,3 +83,21 @@ let userData = {
     currentSong: null,
     songCurrentTime: 0,
 };
+
+// using Arrow Functions
+// Anonymous Functions, functions do not have name.
+// () => {}
+    const printGreeting = () => {
+        console.log("Hello there!");
+    }
+    printGreeting();
+
+    const printMessage = org => {
+        console.log(`${org} is awesome!`)
+    }
+    printMessage("FreeCodeCamp");
+
+    const addTwoNumbers = (num1, num2) => 
+         num1 + num2;
+    
+    console.log(addTwoNumbers(3,4));
