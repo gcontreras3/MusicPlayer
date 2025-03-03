@@ -87,17 +87,10 @@ let userData = {
 // using Arrow Functions
 // Anonymous Functions, functions do not have name.
 // () => {}
-    const printGreeting = () => {
-        console.log("Hello there!");
-    }
-    printGreeting();
+ const renderSongs = (array) => {
+    // map method is used to iterate through an array and return a new array.
+    const songsHTML = array.map((song) => {}); // takes an argument, known as a callback function.
+    // callback is a function that is called in another function.
 
-    const printMessage = org => {
-        console.log(`${org} is awesome!`)
-    }
-    printMessage("FreeCodeCamp");
-
-    const addTwoNumbers = (num1, num2) => 
-         num1 + num2;
-    
-    console.log(addTwoNumbers(3,4));
+ };
+ 
