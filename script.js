@@ -89,7 +89,9 @@ let userData = {
 // () => {}
  const renderSongs = (array) => {
     // map method is used to iterate through an array and return a new array.
-    const songsHTML = array.map((song) => {}); // takes an argument, known as a callback function.
+    const songsHTML = array.map((song) => {
+      return `<li id="song-${song.id}" class="playlist-song"></li>`
+    }); // takes an argument, known as a callback function.
     // callback is a function that is called in another function.
 
  };
